@@ -19,8 +19,8 @@ const breakpoints = {
 
 import "./styles/styles.css";
 
-// import { store } from "./store";
-// import { Provider } from "react-redux";
+import { store } from "./store";
+import { Provider } from "react-redux";
 
 const theme = extendTheme({
   breakpoints,
@@ -29,9 +29,11 @@ const theme = extendTheme({
       html: {
         height: "100%",
         width: "100%",
-        overflowX: "hidden",
+  
       },
       body: {
+           
+        fontFamily:"Raleway",
         height: "100%",
         width: "100%",
 
@@ -45,9 +47,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider theme={theme}>
     <React.StrictMode>
-      {/* <Provider store={store}> */}
+      <Provider store={store}>
         <App />
-      {/* </Provider> */}
+      </Provider>
     </React.StrictMode>
   </ChakraProvider>
 );
