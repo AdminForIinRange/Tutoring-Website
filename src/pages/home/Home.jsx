@@ -192,11 +192,11 @@ export default function Home() {
                         xxxl: "35px",}}>
                     Mike 
                   </Text>
-                  <Text  mt={"-10px"}  fontWeight={"100"} fontSize={{ base: "13px",
-                        xsm: "13px",
-                        ssm: "13px",
-                        sm: "15px",
-                        md: "15px",
+                  <Text  mt={"-10px"}  fontWeight={"100"} fontSize={{ base: "10px",
+                        xsm: "10px",
+                        ssm: "10px",
+                        sm: "10px",
+                        md: "13px",
                         lg: "17px",
                         xl: "20px",
                         xxl: "20px",
