@@ -6,17 +6,22 @@ import {
   Button,
   Text,
   VStack,
+  AbsoluteCenter,
   InputRightAddon,
+  Divider,
   Box,
   Icon,
 } from "@chakra-ui/react";
 import Header from "../../Components/Header";
 import InputBar from "./Components/InputBar";
+import ItTeacher from '../../assets/People/brunette-man-isolated-white-background_1368-4404.png'
+import MatchsTutor from '../../assets/People/satisfied-executive-with-mustache-glasses_1154-240.png'
 import EnglishMajor from "../../assets/People/artist-white_1368-3546.png";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import { FaBriefcase } from "react-icons/fa";
 import { LuBadgeCheck } from "react-icons/lu";
 import { CiBadgeDollar } from "react-icons/ci";
+import TutorCard from "../../components/TutorCard";
 export default function FindTutor() {
   return (
     <>
@@ -25,7 +30,10 @@ export default function FindTutor() {
         SubText={"Our Highly Acclaimed Top-Rated Tutors of the Month"}
       />
 
-      <InputBar />
+
+
+
+     
 
       <VStack
         w={"100%"}
@@ -34,51 +42,46 @@ export default function FindTutor() {
         justify={"center"}
         mt={"50px"}
       >
-        <HStack w={"90%"} h={"100%"} align={"center"} justify={"center"} transition="transform, 0.3s ease-in-out, boxShadow 1s ease-in-out"
-              _hover={{
-                transform: "scale(1.03)",
-              
-              }}>
-            <VStack>
-            <Box
-              fontFamily={"sans-serif"}
-            w={"325px"}
-            h={"450px"}
-            bgColor={"gray.200"}
-            borderRadius={"15px"}
-            p={"4%"}
-            fontWeight={"500"}
-            backgroundImage={EnglishMajor}
-
-            backgroundSize={"300px"}
-            backgroundRepeat={"no-repeat"}
-            backgroundPosition={"bottom"}
-           
-          >
-            
-            <Text fontWeight={"700"} fontSize={"25px"}>
-              Mike <Text fontWeight={"500"} fontSize={"15px"} as={"spam"}>- English Major</Text>
-            </Text>
-            <Text>   <Icon fontSize={"15px"} as={LuBadgeCheck }/> Certfied</Text>
+        <HStack flexWrap={"wrap"}
+          w={"90%"}
+          h={"100%"}
+          align={"center"}
+          justify={"center"}
+          gap={"30px"}
          
-            <Text>     <Icon fontSize={"15px"} as={FaBriefcase} /> 3 Years of Experience</Text>
-            <Text  >  <Text as={"span"} fontWeight={"700"}>$</Text> 78-89/h</Text>
-            
-            
-          </Box>
-          <VStack w={"100%"} align={"end"}>
-        <Button colorScheme="teal" w={"100%"} mb={"100%"}>
-            <Text fontSize={"25px"}>
-                More
-            </Text>
-             
-            </Button>
-        </VStack>
-        
-            </VStack>
-    
+
+        >
+        <TutorCard  mainColor={"teal"}  Name={"Mike"} Cert={true} Img={EnglishMajor} Hourly={"$78-89 / H"}  Role={"English Major "} />
+        <TutorCard  mainColor={"#757174"} Name={"Primeagen"} Cert={true} Img={MatchsTutor} Hourly={"$78-89 / H"}  Role={"Maths Teacher "} />
+        <TutorCard mainColor={"#2B323C"} Name={"IDK"} Cert={true} Img={ItTeacher} Hourly={"$78-89 / H"}  Role={"Software Major "} />
         </HStack>
       </VStack>
+
+      <Box
+      position="relative"
+      padding={{
+        base: "50",
+        xsm: "50",
+        ssm: "50",
+        sm: "50",
+        md: "70",
+        lg: "70",
+        xl: "70",
+        xxl: "70",
+        xxxl: "70",
+      }}
+    >
+      <Divider />
+      <AbsoluteCenter
+        fontSize={"20px"}
+        bg="white"
+        borderRadius={"15px"}
+        px="10"
+      >
+        Or
+      </AbsoluteCenter>
+    </Box>
+      <InputBar />
     </>
   );
 }

@@ -22,7 +22,7 @@ export default function InputBar() {
     className="animate__animated animate__fadeInUp "
     align={"center"}
     justify={"center"}
-    mt={"50px"}
+  
   >
     <InputGroup
     
