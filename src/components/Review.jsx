@@ -56,6 +56,7 @@ SubText={"Trusted within the community :)"}/>
         overflowX="auto"
         borderRadius="15px"
         ref={reviewContainerRef}
+        sx={{ overflowX: "hidden" }} // Add this line
       >
         {reviews.map((review) => (
           <div key={review.fullName}>

@@ -114,7 +114,7 @@ export default function TutorCard({Name, Role, Cert, Experience, Hourly, Img, ma
         </Box>
     </Box>
     <VStack w={"100%"} align={"end"}>
-      <Button bgColor={mainColor} color={"white"} w={"100%"} >
+      <Button bgColor={"#2B323C"} colorScheme={"blackAlpha"} color={"white"} w={"100%"} >
         <Text fontSize={"25px"}>More</Text>
       </Button>
     </VStack>
