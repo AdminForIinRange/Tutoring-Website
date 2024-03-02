@@ -1,185 +1,67 @@
-const ExpenseData = [
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🍕",
-      title: "Burger",
-      category: "FoodDrinks",
-      date: "11th Dec 2017, Monday",
-      amount: "159",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "💃",
-      title: "Dance",
-      category: "EntertainmentRecreation",
-      date: "11th Dec 2017, Monday",
-      amount: "119",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🚗",
-      title: "Car Maintenance",
-      category: "Other",
-      date: "12th Dec 2017, Tuesday",
-      amount: "50",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🎬",
-      title: "Movie Ticket",
-      category: "EntertainmentRecreation",
-      date: "13th Dec 2017, Wednesday",
-      amount: "200",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🎮",
-      title: "Video Game",
-      category: "EntertainmentRecreation",
-      date: "14th Dec 2017, Thursday",
-      amount: "100",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "📚",
-      title: "Books",
-      category: "EducationDevelopment",
-      date: "15th Dec 2017, Friday",
-      amount: "300",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "💻",
-      title: "Laptop",
-      category: "Other",
-      date: "16th Dec 2017, Saturday",
-      amount: "200",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🍷",
-      title: "Wine",
-      category: "FoodDrinks",
-      date: "17th Dec 2017, Sunday",
-      amount: "500",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🎤",
-      title: "Concert Ticket",
-      category: "EntertainmentRecreation",
-      date: "18th Dec 2017, Monday",
-      amount: "150",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🍔",
-      title: "Fast Food",
-      category: "FoodDrinks",
-      date: "19th Dec 2017, Tuesday",
-      amount: "300",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🏡",
-      title: "Other",
-      category: "HouseholdUtilities",
-      date: "20th Dec 2017, Wednesday",
-      amount: "100",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🎁",
-      title: "Gift",
-      category: "Other",
-      date: "21st Dec 2017, Thursday",
-      amount: "50",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "✈️",
-      title: "Flight Ticket",
-      category: "Other", // Changed from "Travel" to "Other"
-      date: "22nd Dec 2017, Friday",
-      amount: "300",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🛒",
-      title: "Groceries",
-      category: "FoodDrinks",
-      date: "23rd Dec 2017, Saturday",
-      amount: "400",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🍹",
-      title: "Cocktails",
-      category: "FoodDrinks",
-      date: "24th Dec 2017, Sunday",
-      amount: "200",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "📱",
-      title: "Phone Bill",
-      category: "HouseholdUtilities",
-      date: "25th Dec 2017, Monday",
-      amount: "100",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🍣",
-      title: "Sushi",
-      category: "FoodDrinks",
-      date: "26th Dec 2017, Tuesday",
-      amount: "150",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🎭",
-      title: "Theater Show",
-      category: "EntertainmentRecreation",
-      date: "27th Dec 2017, Wednesday",
-      amount: "400",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "🍦",
-      title: "Ice Cream",
-      category: "FoodDrinks",
-      date: "28th Dec 2017, Thursday",
-      amount: "50",
-      
-    },
-    {
-      key: Math.floor(Math.random() * 1000000),
-      icon: "📷",
-      title: "Camera",
-      category: "Other",
-      date: "29th Dec 2017, Friday",
-      amount: "150",
-      
-    }
-  ];
+const Reviews = [
   
-  export default ExpenseData;
+    {
+      "profilePicture": "https://example.com/profile1.jpg",
+      "fullName": "John Doe",
+      "ServiceHeader": "Amazing Service",
+      "templateReview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar neque at massa luctus, vel efficitur risus vestibulum."
+    },
+    {
+      "profilePicture": "https://example.com/profile2.jpg",
+      "fullName": "Jane Smith",
+      "ServiceHeader": "Excellent Work",
+      "templateReview": "Nulla facilisi. Vivamus condimentum dui non elit placerat, vel varius lorem accumsan."
+    },
+    {
+      "profilePicture": "https://example.com/profile3.jpg",
+      "fullName": "Michael Johnson",
+      "ServiceHeader": "Highly Recommend",
+      "templateReview": "Suspendisse potenti. Integer nec libero vestibulum, varius nisi non, lacinia purus."
+    },
+    {
+      "profilePicture": "https://example.com/profile4.jpg",
+      "fullName": "Emily Brown",
+      "ServiceHeader": "Great Service",
+      "templateReview": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+    },
+    {
+      "profilePicture": "https://example.com/profile5.jpg",
+      "fullName": "David Wilson",
+      "ServiceHeader": "Wonderful Experience",
+      "templateReview": "Fusce eleifend felis non quam aliquam ultrices. Integer euismod, magna vel fringilla fermentum, est nisl gravida urna."
+    },
+    {
+      "profilePicture": "https://example.com/profile6.jpg",
+      "fullName": "Sarah Taylor",
+      "ServiceHeader": "Exceptional Work",
+      "templateReview": "Cras sagittis diam id magna tincidunt, at tincidunt justo vulputate. Duis eget purus id magna tincidunt ultricies."
+    },
+    {
+      "profilePicture": "https://example.com/profile7.jpg",
+      "fullName": "Christopher Martinez",
+      "ServiceHeader": "Outstanding Service",
+      "templateReview": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ut nunc in lorem pellentesque fermentum."
+    },
+    {
+      "profilePicture": "https://example.com/profile8.jpg",
+      "fullName": "Jessica Garcia",
+      "ServiceHeader": "Top-notch Service",
+      "templateReview": "Ut ultricies justo eget sapien dictum interdum. Praesent non elit vitae lacus tempus accumsan."
+    },
+    {
+      "profilePicture": "https://example.com/profile9.jpg",
+      "fullName": "Daniel Miller",
+      "ServiceHeader": "Professional Service",
+      "templateReview": "Quisque varius dolor ac venenatis vehicula. Nam eget tellus eget metus lacinia tempor."
+    },
+    {
+      "profilePicture": "https://example.com/profile10.jpg",
+      "fullName": "Amanda Lee",
+      "ServiceHeader": "Impressive Work",
+      "templateReview": "Curabitur dapibus justo sit amet libero sollicitudin, eget cursus ligula convallis."
+    }
+  ]
+  
+  
+  export default Reviews;
   

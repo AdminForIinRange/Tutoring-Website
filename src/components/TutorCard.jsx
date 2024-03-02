@@ -69,7 +69,8 @@ export default function TutorCard({Name, Role, Cert, Experience, Hourly, Img, ma
     <VStack  transition="transform, 0.3s ease-in-out, boxShadow 1s ease-in-out"
     _hover={{
       transform: "scale(1.03)",
-    }}>
+    }}
+  >
     <Box
       fontFamily={"sans-serif"}
       w={"325px"}

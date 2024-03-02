@@ -16,6 +16,8 @@ import {
     InputRightAddon,
 
   } from "@chakra-ui/react";
+
+  import {SearchIcon } from '@chakra-ui/icons'
 export default function InputBar() {
   return (
     <VStack
@@ -55,8 +57,8 @@ export default function InputBar() {
         placeholder="Topic of Interest"
       />
       <InputRightAddon h={"100%"}>
-        <Button colorScheme="teal" w={"100%"}>
-       
+        <Button colorScheme="teal" w={"100%"} >
+       <SearchIcon />
         </Button>
       </InputRightAddon>
     </InputGroup>
