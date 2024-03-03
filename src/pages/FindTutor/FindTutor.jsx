@@ -78,22 +78,23 @@ export default function FindTutor() {
             Hourly={"38-49/h"}
             Role={"English Major "}
           />
+       
+
           <TutorCard
+            mainColor={"#757174"}
+            Name={"Liam"}
+            Cert={true}
+            Img={MatchsTutor}
+            Hourly={"56-60/h"}
+            Role={"Physics Teacher "}
+          />
+             <TutorCard
             mainColor={"#2B323C"}
             Name={"Mia"}
             Cert={true}
             Img={Accounting}
             Hourly={"42-61/h"}
-            Role={"Software Developer "}
-          />
-
-          <TutorCard
-            mainColor={"#757174"}
-            Name={"Mike"}
-            Cert={true}
-            Img={MatchsTutor}
-            Hourly={"56-60/h"}
-            Role={"Maths Teacher "}
+            Role={"Accounting"}
           />
           <TutorCard
             mainColor={"#2B323C"}
@@ -106,7 +107,7 @@ export default function FindTutor() {
 
           <TutorCard
             mainColor={"#757174"}
-            Name={"Mia"}
+            Name={"Amy"}
             Cert={true}
             Img={Teacher}
             Hourly={"56-60/h"}

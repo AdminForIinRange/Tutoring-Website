@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { calculateScreenSize } from "../features/modal/ScreenSizeSlice";
+import { calculateScreenSize } from "../features/ScreenSize/ScreenSizeSlice";
 
 const useScreenSize = () => {
   const dispatch = useDispatch();
@@ -22,10 +22,8 @@ const useScreenSize = () => {
   }, [dispatch]);
 
  
-  const isSmallScreen = useSelector(state => state.screenSize.isSmallScreen);
-  const isMdScreen = useSelector(state => state.screenSize.isMdScreen);
 
-  
+  const {  isSmallScreen, isMdScreen} = useSelector(state => state.screenSize)
   return { isSmallScreen, isMdScreen};
 };
 

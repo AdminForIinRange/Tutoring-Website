@@ -59,6 +59,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import EnglishMajor from "../../assets/People/artist-white_1368-3546.png";
+
 import useScreenSize from "../../hook/useScreenSize";
 import { MdOutlineAttachMoney } from "react-icons/md";
 import { FaBriefcase } from "react-icons/fa";
