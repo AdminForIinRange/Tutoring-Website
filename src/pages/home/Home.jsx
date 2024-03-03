@@ -69,7 +69,7 @@ export default function Home() {
 
   return (
     <>
-      <VStack>
+      <VStack   >
         <HStack
           align={"start"}
           flexWrap={{
@@ -96,6 +96,7 @@ export default function Home() {
               xxl: "50%",
               xxxl: "50%",
             }}
+            mt={"100px"}
           >
             <VStack p={"3%"} align={"left"} justify={"left"} gap={"10px"}>
               <Text
@@ -147,7 +148,7 @@ export default function Home() {
           {isSmallScreen ? (
             <></>
           ) : (
-            <HStack w={"50%"} justify={"right"} p={"0% 2% 0% 0%"} align={"end"}>
+            <HStack     mt={"100px"} w={"50%"} justify={"right"} p={"0% 2% 0% 0%"} align={"end"}>
               <HStack w={"100%"} align={"end"}>
                 <Box
                   backgroundImage={EnglishMajor}
@@ -177,7 +178,7 @@ export default function Home() {
                       w={"30%"}
                       h={"10%"}
                       borderRadius={"15px"}
-                      
+                      color={"teal.800"}
                     > 
                     
                     <VStack w={"100%"} align={"left"} fontFamily={"sans-serif"}>

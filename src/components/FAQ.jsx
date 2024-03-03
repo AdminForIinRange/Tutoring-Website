@@ -46,11 +46,11 @@ export default function FAQ() {
 
 
 
-        <Accordion  justifyContent={"center"} w={"100%"} mt={"-80px"} defaultIndex={[0]} allowMultiple>
+        <Accordion p={"0px"}  justifyContent={"center"} w={"100%"} mt={"-80px"} defaultIndex={[0]} allowMultiple>
             
-  <AccordionItem border={"0px"}>
+  <AccordionItem border={"0px"} w={"100%"}>
  
-  <HStack justify={"center"}>
+  <HStack justify={"center"} >
 
       <AccordionButton>
 
@@ -59,24 +59,25 @@ export default function FAQ() {
         <AccordionIcon />
       
 
-<Text >
+
 View FAQ
-</Text>
+
 
       </AccordionButton>
       </HStack>
-    <AccordionPanel >
+    <AccordionPanel  >
 
     <HStack align={"start"}   w={{ base: "100%",
-          xsm: "90%",
-          ssm: "90%",
-          sm: "90%",
+          xsm: "100%",
+          ssm: "100%",
+          sm: "100%",
           lg: "90%",
           xl: "70%",
           xxl: "70%",
           xxxl: "70%",}} flexWrap={"wrap"} justify={"center"} gap={"20px"}>
           {questions.map((questionsBox) => (
             <Box
+         
             transition="transform, 0.3s ease-in-out, boxShadow 1s ease-in-out"
             _hover={{
               transform: "scale(1.03)",
@@ -96,8 +97,9 @@ View FAQ
               xxxl: "500px",}}
               bgColor={"gray.200"}
               p={"1.5%"}
+           
             >
-              <Text>{questionsBox}</Text>
+              <Text   >{questionsBox}</Text>
             </Box>
           ))}
         </HStack>

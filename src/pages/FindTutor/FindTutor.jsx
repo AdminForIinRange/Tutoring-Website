@@ -48,10 +48,10 @@ export default function FindTutor() {
       >
         <HStack
           flexWrap={"wrap"}
-          w={{ base: "90%",
-          xsm: "90%",
-          ssm: "90%",
-          sm: "90%",
+          w={{ base: "95%",
+          xsm: "95%",
+          ssm: "95%",
+          sm: "95%",
           md: "90%",
           lg: "90%",
           xl: "90%",
@@ -60,7 +60,15 @@ export default function FindTutor() {
           h={"100%"}
           align={"center"}
           justify={"center"}
-          gap={"30px"}
+          gap={{ base: "10px",
+          xsm: "10px",
+          ssm: "10px",
+          sm: "20px",
+          md: "20px",
+          lg: "20px",
+          xl: "30px",
+          xxl: "30px",
+          xxxl: "30px",}}
         >
           <TutorCard
             mainColor={"teal"}
@@ -72,7 +80,7 @@ export default function FindTutor() {
           />
           <TutorCard
             mainColor={"#2B323C"}
-            Name={"IDK"}
+            Name={"Mia"}
             Cert={true}
             Img={Accounting}
             Hourly={"42-61/h"}
@@ -81,7 +89,7 @@ export default function FindTutor() {
 
           <TutorCard
             mainColor={"#757174"}
-            Name={"Primeagen"}
+            Name={"Mike"}
             Cert={true}
             Img={MatchsTutor}
             Hourly={"56-60/h"}
@@ -89,16 +97,16 @@ export default function FindTutor() {
           />
           <TutorCard
             mainColor={"#2B323C"}
-            Name={"IDK"}
+            Name={"Axel"}
             Cert={true}
             Img={ItTeacher}
             Hourly={"42-61/h"}
-            Role={"Software Developer "}
+            Role={"Web Developer "}
           />
 
           <TutorCard
             mainColor={"#757174"}
-            Name={"Primeagen"}
+            Name={"Mia"}
             Cert={true}
             Img={Teacher}
             Hourly={"56-60/h"}

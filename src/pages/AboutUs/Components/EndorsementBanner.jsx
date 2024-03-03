@@ -67,16 +67,8 @@ import {
 
 export default function EndorsementBanner() {
   return (
-    <> <VStack bgColor={"RGBA(0, 0, 0, 0.08)"}  p={"1% 2% 2% 2%"} mt={"10px"} w={"100%"} h={"100%"} justify={"center"} align={"center"} >
- <Text  mb={"10px"}  fontWeight={"300"}   fontSize={{ base: "30px",
-          xsm: "30px",
-          ssm: "40px",
-          sm: "40px",
-          md: "50px",
-          lg: "50px",
-          xl: "50px",
-          xxl: "60px",
-          xxxl: "60px",}}>Endorsements</Text>
+    <> <VStack bgColor={"RGBA(0, 0, 0, 0.08)"}  p={"3% 2% 3% 2%"} mt={"10px"} w={"100%"} h={"100%"} justify={"center"} align={"center"} >
+
 
 
 
