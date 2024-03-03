@@ -278,7 +278,7 @@ export default function Home() {
         <HStack justify={"end"} w={"90%"} >
 
         <Divider
-       
+       opacity={"1"}
           border={"5px solid teal"}
           borderRadius={"20PX"}
           mt={{

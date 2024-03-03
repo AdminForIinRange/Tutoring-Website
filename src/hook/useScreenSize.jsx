@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { calculateScreenSize } from "../features/ScreenSize/ScreenSizeSlice";
+import { calculateScreenSize } from "../features/Screen/ScreenSizeSlice";
 
 const useScreenSize = () => {
   const dispatch = useDispatch();

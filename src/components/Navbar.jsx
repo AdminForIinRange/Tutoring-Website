@@ -58,10 +58,11 @@ import {
   Container,
   Spacer,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import useScreenSize from "../hook/useScreenSize";
 
 export default function Navbar() {
+ const Navigate =  useNavigate()
   const { isSmallScreen, isMdScreen } = useScreenSize();
   return (
     <Box
@@ -160,7 +161,11 @@ export default function Navbar() {
                     xxl: "17.5px",
                     xxxl: "17.5px",
                   }}
+                  onClick={()=>{
+                    Navigate("/Auth")
+                  }}
                 >
+    
                   login
                 </Text>
               </Button>
