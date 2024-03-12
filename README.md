@@ -7,7 +7,7 @@ The landing page aims to provide a seamless and intuitive experience for users s
 
 ### Live Deploy
 
-`https://tutorsite-68141.web.app`
+https://tutorsite-68141.web.app
 
 #### Key Features
 
