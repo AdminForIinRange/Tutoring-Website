@@ -5,6 +5,10 @@ This project is a dynamic and visually appealing landing page for a tutoring ser
 The landing page aims to provide a seamless and intuitive experience for users seeking tutoring services. It showcases the offerings, features, and benefits of the tutoring service in an attractive and user-friendly manner.
 ![image](https://github.com/AdminForIinRange/Tutoring-Website/assets/91888685/8c208f9b-e227-4266-bf4a-7999a7d4fa85)
 
+### Live Deploy
+
+`https://tutorsite-68141.web.app`
+
 #### Key Features
 
 - Responsive and modern design with Tailwind CSS and Chakra UI
