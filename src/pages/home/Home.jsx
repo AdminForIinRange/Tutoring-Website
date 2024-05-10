@@ -132,13 +132,10 @@ export default function Home() {
                   xxxl: "22.5px",
                 }}
               >
-                Hello!, I'm a fervent self taught Full-Stack Developer
-                specializing in{" "}
-                <Text as={"span"} textDecoration={"underline"}>
-                  frontend
-                </Text>
-                , with a knack for enhancing web experiences through both UI/UX
-                and code.
+                The most trusted online and home-based tutoring company.
+                We specialise in delivering individualised, one-on-one instruction either online or in-home.
+                
+                
               </Text>
               <Button w={"120px"} colorScheme="teal">
                 Get Started
